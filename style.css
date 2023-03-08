@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.box1 {
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.box1 h2 {
+	margin-bottom: 20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card {
+	background-color: #fff;
+	box-shadow: 0 0 5px #ccc;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.card img {
+	width:300px ;
+    height: 200px;
+}
